@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff4f6;
+    padding: 40px 20px;
+    margin: 0;
+    color: #704b55;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(232, 166, 179, 0.18);
+    max-width: 950px;
+    margin: 0 auto;
+    border: 2px solid #ffe0e6;
+}
+
+.container.kecil {
+    max-width: 550px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #d66f8b;
+    font-size: 26px;
+}
+
+p {
+    margin-top: 0;
+    color: #b88778;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #fdfc9d;
+    color: #8a6840;
+    font-weight: bold;
+    border-bottom: 3px solid #fdfc9d;
+}
+
+tr {
+    border-bottom: 1px solid #ffebee;
+    transition: background-color 0.2s;
+}
+
+tr:hover {
+    background-color: #fcfcd2;
+}
+
+table.info td {
+    padding: 6px 14px 6px 0;
+    vertical-align: top;
+}
+
+table.info tr {
+    border-bottom: none;
+}
+
+table.info tr:hover {
+    background-color: transparent;
+}
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ffe0e8;
+    color: #b65370;
+}
+
+.btn-detail {
+    background-color: #f2a6b8;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-detail:hover {
+    background-color: #e887a1;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(232, 135, 161, 0.3);
+}
+
+.btn-detail:active {
+    transform: translateY(0);
+}
+
+label {
+    display: block;
+    margin: 14px 0 6px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #8a5d68;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ffe0e6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: inherit;
+    background-color: #fcfbc0;
+    color: #704b55;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus, textarea:focus {
+    border-color: #f2a6b8;
+    box-shadow: 0 0 0 3px rgba(242, 166, 184, 0.15);
+}
+
+input::placeholder, textarea::placeholder {
+    color: #c9a9a9;
+}
